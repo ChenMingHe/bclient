@@ -14,6 +14,7 @@ class MessageStatistics : public QWidget
 public:
     explicit MessageStatistics(QWidget *parent = 0);
     ~MessageStatistics();
+public slots:
     void sendCountIncrease();
     void recvCountIncrease();
     void successCountIncrease();

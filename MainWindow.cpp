@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    config = new Config(this);
 }
 
 MainWindow::~MainWindow()
@@ -21,7 +22,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_actionSetting_triggered()
 {
-    QDialog *d = new ConfigDialog(this);
+    ConfigDialog *d = new ConfigDialog(this);
+    d->setConfig(config);
     d->show();
 }
 
