@@ -31,7 +31,8 @@ HEADERS  += MainWindow.h \
     ConfigDialog.h \
     TimeRequestThread.h
 
-FORMS    += MainWindow.ui \
+FORMS    += \
     MessageStatistics.ui \
     AboutUsDialog.ui \
-    ConfigDialog.ui
+    ConfigDialog.ui \
+    MainWindow.ui

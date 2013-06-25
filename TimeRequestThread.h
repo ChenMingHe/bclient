@@ -14,7 +14,7 @@ public:
 
 signals:
     
-public slots:
+public:
     void setUdpSender(UdpSender *sender);
     void setTimeInterval(qint32 interval);
     void setUserId(qint32 id);
