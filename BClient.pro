@@ -15,10 +15,23 @@ SOURCES += main.cpp\
     UdpServer.cpp \
     test/TestUdpServer.cpp \
     UdpSender.cpp \
-    test/TestUdpSender.cpp
+    test/TestUdpSender.cpp \
+    Config.cpp \
+    MessageStatistics.cpp \
+    AboutUsDialog.cpp \
+    ConfigDialog.cpp \
+    TimeRequestThread.cpp
 
 HEADERS  += MainWindow.h \
     UdpServer.h \
-    UdpSender.h
+    UdpSender.h \
+    Config.h \
+    MessageStatistics.h \
+    AboutUsDialog.h \
+    ConfigDialog.h \
+    TimeRequestThread.h
 
-FORMS    += MainWindow.ui
+FORMS    += MainWindow.ui \
+    MessageStatistics.ui \
+    AboutUsDialog.ui \
+    ConfigDialog.ui

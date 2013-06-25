@@ -21,6 +21,7 @@ public slots:
       @arg port : 新的发送端口号
     */
     void changeSendPort(qint16 port);
+
 private:
     QUdpSocket *sk;
     qint16 bport; //发送端口号端口号

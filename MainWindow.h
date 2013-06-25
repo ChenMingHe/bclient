@@ -15,6 +15,10 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     
+private slots:
+    void on_actionSetting_triggered();
+    void handleMsg(QSharedPointer<QByteArray> data);
+
 private:
     Ui::MainWindow *ui;
 };
